@@ -5,7 +5,7 @@ on:
     branches:
       - main
   pull_request:
-   branches:
+    branches:
       - main
   workflow_dispatch:
 
@@ -18,9 +18,8 @@ jobs:
         run: echo "HelloWorld"
         shell: bash
 
-
   goodbye:
-    runs-on: ubntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: goodbyeWorld
         run: echo "GoodByeWorld"
